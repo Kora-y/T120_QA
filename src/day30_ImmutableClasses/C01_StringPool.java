@@ -1,6 +1,8 @@
+package day30_ImmutableClasses;
+
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
-public class Main {
+public class C01_StringPool {
     public static void main(String[] args) {
 
 
