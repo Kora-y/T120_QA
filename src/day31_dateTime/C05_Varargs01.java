@@ -1,5 +1,5 @@
 package day31_dateTime;
-public class C05_Varargs {
+public class C05_Varargs01 {
     public static void main(String[] args) {
         toplama(3,5);  // Iki int sayinin toplami : 8
         toplama(3,5,7); // Uc int sayinin toplami : 15
