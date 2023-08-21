@@ -1,6 +1,5 @@
 package day36_inheritanceDataTypeKullanimi;
 
-import day34_inheritance.EHayvanlar;
 
 public class FKuslar extends EHayvanlar {
     protected void kanat(){
