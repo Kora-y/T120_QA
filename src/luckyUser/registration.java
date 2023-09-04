@@ -11,7 +11,7 @@ public class registration {
    static Scanner scanner = new Scanner(System.in);
 
     static ArrayList<user> register() {
-        System.out.println("İsminizi giriniz : ");
+        System.out.println("Please type your name : ");
         String name = scanner.nextLine();
         LocalDateTime time = LocalDateTime.now();
         user user = new user(name,time);
@@ -26,11 +26,11 @@ public class registration {
              ) {
 
             if (each.registerDate.getSecond() <= 10) {
-                System.out.println(each.name + "hadi iyisin  5 kilo balı kaptın...");
+                System.out.println(each.name + " Lucky user");
 
             }
             else  {
-                System.out.println(each.name + "bu sefer olmadı. Bi dahaki sefere...");
+                System.out.println(each.name + " Not this time...");
 
             }
         }
@@ -38,7 +38,7 @@ public class registration {
     static void userList(ArrayList<user> list) {
         for (user each:list
              ) {
-            System.out.println("İsim:" + each.name + "Kayıt Zamanı: " + each.registerDate);
+            System.out.println("Name:" + each.name + "Registration time: " + each.registerDate);
         }
     }
 }

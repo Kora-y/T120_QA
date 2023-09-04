@@ -8,27 +8,35 @@ public class menu {
     void menu() {
 
 
-        boolean cikis = true;
+        boolean exit = true;
         do {
 
-            System.out.println("1. Kayıt işlemi \n" +
-                    "2. Kişi Listele \n" +
-                    "3. Şanslı Kişiler \n" +
-                    "4. Çıkış \n" +
-                    "Seçiminiz : ");
+            System.out.println("1. Register \n" +
+                    "2. List Users \n" +
+                    "3. Lucky Users \n" +
+                    "4. Exit \n" +
+                    "Your Choice : ");
 
-            int secim = scanner.nextInt();
+            int choice = scanner.nextInt();
 
-            switch (secim) {
+            switch (choice) {
                 case 1:
- registration.register();
-
+                    registration.register();
+                    break;
                 case 2:
+                    registration.userList(registration.users);
+                    break;
                 case 3:
+                    registration.printHappyUser(registration.users);
+                    break;
                 case 4:
+                    exit = false;
+                    break;
                 default:
+                    System.out.println("You entered wrong characters!!!");
+                    break;
             }
 
-        } while (cikis);
+        } while (exit);
     }
 }
