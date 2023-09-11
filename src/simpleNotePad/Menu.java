@@ -6,15 +6,15 @@ public class Menu {
 
     static String userName;
 
-     static String password;
+    static String password;
 
-     static int failedTry = 0;
+    static int failedTry = 0;
 
     public static void register() {
-         String userName;
-         String password;
+        String userName;
+        String password;
 
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("At first,please register to take notes on our app. \n" +
                 "Please enter a username : ");
         userName = scanner.next();
@@ -48,13 +48,13 @@ public class Menu {
             menu();
 
 
-        } else if (failedTry == 3){
+        } else if (failedTry == 3) {
             System.out.println("You've reached the maximum amount of trial");
 
 
             System.exit(0);
 
-        } else  {
+        } else {
             System.out.println("Username or password is false,please try again");
             failedTry++;
             login();
@@ -76,13 +76,13 @@ public class Menu {
 
         switch (selection) {
             case 1:
-              MethodStorage.addNewNote();
+                MethodStorage.addNewNote();
             case 2:
-               MethodStorage.editNote();
+                MethodStorage.editNote();
             case 3:
-                deleteNote();
+                MethodStorage.deleteNote();
             case 4:
-                viewNote();
+                MethodStorage.viewNote();
             case 5:
                 login();
             case 6:
