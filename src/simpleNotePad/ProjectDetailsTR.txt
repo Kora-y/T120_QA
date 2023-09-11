@@ -1,0 +1,46 @@
+Proje Fikri: Basit Bir Not Defteri Uygulaması
+
+Proje Açıklaması: Bu proje, kullanıcıların metin tabanlı notlar oluşturabileceği ve düzenleyebileceği
+bir basit bir not defteri uygulamasını oluşturmayı amaçlar.
+Kullanıcılar, metin notları ekleyebilmeli, düzeltebilmeli, silebilmeli ve görüntüleyebilmelidirler.
+
+Proje Gereksinimleri:
+
+Kullanıcılar notlar ekleyebilmelidir. Her not, bir başlık ve metin içeriği içermelidir.
+
+Kullanıcılar notları düzeltebilmelidir.
+
+Kullanıcılar notları silebilmelidir.
+
+Kullanıcılar notları görüntüleyebilmelidir.
+
+Notlar bir liste şeklinde saklanmalıdır.
+
+Kullanıcıya menü seçenekleri sunmalısınız (örneğin, yeni not ekleme, not düzenleme, not silme, not görüntüleme).
+
+Teknik Gereksinimler:
+
+Java programlama dilini kullanarak uygulamayı geliştirmeniz gerekecek.
+
+Notların saklanması için bir veri yapısı (örneğin, ArrayList) kullanabilirsiniz.
+
+Kullanıcı arayüzü (UI) oluşturmak için temel bir konsol arayüzü veya bir GUI (Swing veya JavaFX gibi) kullanabilirsiniz.
+Konsol tabanlı uygulama, başlangıç için daha basit olabilir.
+
+GitHub veya başka bir kod paylaşım platformu üzerinde projenizi yönetmek ve paylaşmak için bir hesap oluşturun.
+
+Projeyi düzenli olarak GitHub'a yükleyerek sürüm kontrolünü uygulayın.
+
+Nasıl Başlamalı:
+
+Java'da temel veri yapıları ve sınıflar konularını gözden geçirin.
+
+Kullanıcı girişi ve konsol arayüzü oluşturma konularını araştırın
+(kullanıcıdan metin girişi almak için Scanner sınıfını kullanabilirsiniz).
+
+Notları nasıl saklayacağınızı ve yöneteceğinizi planlayın.
+
+Projeyi adım adım geliştirin ve GitHub'a yükleyin.
+
+İlerledikçe, projenizi daha fazla özelleştirme veya geliştirme fırsatları arayın
+(örneğin, notları tarihleme, notları dosyada saklama veya farklı bir arayüz ekleyerek).
