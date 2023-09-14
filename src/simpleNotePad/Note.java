@@ -35,7 +35,7 @@ public class Note {
             System.out.println(" Title : " + note.getTitle());
             System.out.println(" Content : " + note.getContent());
             System.out.println(" Deadline : " + note.getDeadline());
-            System.out.println("************************************");
+            System.out.println("****************************************");
         }
     }
 }

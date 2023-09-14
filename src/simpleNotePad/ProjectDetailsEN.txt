@@ -41,4 +41,4 @@ Plan how you will store and manage notes.
 Develop the project step by step and upload it to GitHub.
 
 As you progress, look for opportunities to customize or enhance the project
- (e.g., adding timestamps to notes, storing notes in files, or adding a different user interface).
+ (e.g., adding timestamps to notes, storing notes in files, or adding a different user interface)..
